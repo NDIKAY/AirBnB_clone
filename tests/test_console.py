@@ -1,4 +1,4 @@
- unittests for console.py.
+unittests for console.py.
 
 Unittest classes:
     TestHBNBCommand_prompting
@@ -1501,7 +1501,6 @@ class TestHBNBCommand_update(unittest.TestCase):
 
 class TestHBNBCommand_count(unittest.TestCase):
     """Unittests for testing count method of HBNB comand interpreter."""
-
     @classmethod
     def setUp(self):
         try:
@@ -1566,4 +1565,3 @@ class TestHBNBCommand_count(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
-
